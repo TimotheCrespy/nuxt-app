@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'nuxt-app',
+    title: 'Real world events',
     htmlAttrs: {
       lang: 'en'
     },
@@ -16,6 +16,11 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
+  },
+
+  // https://nuxtjs.org/docs/2.x/configuration-glossary/configuration-loading
+  loading: {
+    color: '#ff8c00'
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
